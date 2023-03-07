@@ -1,1 +1,3 @@
-# Algorithms
+## Algorithms
+
+ www.patika.dev homework
