@@ -1,0 +1,13 @@
+MERGE SORT
+[16,21,11,8,12,22]
+
+pass 1: [16,21,11] [8,12,22]
+pass 2: [16] [21,11] [8] [12,22]
+pass 3: [16] [21] [11] [8] [12] [22]    //Divide the array into subarrays of size 1
+pass 4: [16] [11,21] [8] [12,22]        //Merge and sorting
+pass 5: [11,16,21] [8,12,22]            //Merge and sorting
+pass 6: [8,11,12,16,21,22]
+
+O(nlogn)
+
+
